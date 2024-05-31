@@ -283,21 +283,8 @@ nav a{
     .photo-top{
         padding-top: 20vw;
     }
-    .nav a{
-        width: 150px;
-    }
-    .nav span{
-        visibility: hidden;
-    }
-    .nav span:after{
-        content:"get resume";
-        color: #fff;
-        visibility: visible;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 50px;
-    }
+    
+
 }
 /* for ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -737,7 +724,8 @@ nav a{
         border-radius: 50px;
         border: 1px solid #dadada69;
         color: #fff;
-        font-size: 10px;
+        font-size: 9.6px;
+
     }
 
     nav .name h2 {
@@ -803,5 +791,12 @@ nav a{
     }
     .content2 h3 img{
         height: 1.3vh;
+    }
+    .social img {
+        height: 30px;
+    }
+
+    #center h3 {
+       font-size: 13px;
     }
 }
