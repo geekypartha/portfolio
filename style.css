@@ -718,15 +718,15 @@ nav a{
 /* responsive */
 @media(max-width:900px) {
     nav a {
-        height: 4vh;
-        width: 40vw;
+        height: 5vh;
+        width: 45vw;
         padding: 10px 25px;
         border-radius: 50px;
         border: 1px solid #dadada69;
         color: #fff;
-        font-size: 9.6px;
-
+        font-size: 9px;
     }
+    
 
     nav .name h2 {
         font-size: 15px;
@@ -792,11 +792,15 @@ nav a{
     .content2 h3 img{
         height: 1.3vh;
     }
+   
     .social img {
         height: 30px;
     }
 
     #center h3 {
        font-size: 13px;
+    }
+    #cursor{
+        display: none;
     }
 }
